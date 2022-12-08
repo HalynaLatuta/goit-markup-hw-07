@@ -2,46 +2,56 @@
   background-color: var(--color-secondary);
 }
 
-.our-team {
+.card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+
+.our-team-section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.our-team-section-list {
   display: flex;
+}
 
-  &__title {
-      text-align: center;
-      margin-bottom: 50px;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 42px;
-      letter-spacing: 0.03em;
-    }
+.our-team-section-list-item {
+  background-color: var(--primary-bg-color);
+  border-radius: 4px;
+}
 
-  &__text {
+.our-team-section-list-item-text {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  }
+}
 
-  &__name {
+.our-team-member-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-  }
+}
 
-  &__position {
+.our-team-member-position {
   color: var(--secont-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  }
-
-  &__card {
-  // flex-basis: calc((100% -3*30px)/ 4);
-  margin-right: 30px;
-  }
-
-  &__card:last-child {
-    margin-right: 0;
 }
+
+.our-team-section-list-card {
+  margin-right: 30px;
+}
+
+.our-team-section-list-card:last-child {
+  margin-right: 0;
 }
