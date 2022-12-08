@@ -1,0 +1,53 @@
+.hero {
+  background-color: var(--second-bg-color);
+  text-align: center;
+  padding: 200px 0;
+
+  &__title {
+  width: 695px;
+    color: var(--color-text-white);
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    margin: 0 auto 30px;
+  }
+}
+
+.button {
+  background-color: var(--color-button-accent);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text-white);
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188CE8;
+  color: var(--color-text-white);
+  border: none;
+}
+
+.overlay {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../img/backgtound-img.jpg);
+}

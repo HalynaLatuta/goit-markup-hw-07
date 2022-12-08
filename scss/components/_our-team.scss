@@ -1,0 +1,47 @@
+.section.our-team {
+  background-color: var(--color-secondary);
+}
+
+.our-team {
+  display: flex;
+
+  &__title {
+      text-align: center;
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.03em;
+    }
+
+  &__text {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+
+  &__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  }
+
+  &__position {
+  color: var(--secont-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  }
+
+  &__card {
+  // flex-basis: calc((100% -3*30px)/ 4);
+  margin-right: 30px;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+}
+}
