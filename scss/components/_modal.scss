@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .button-close:hover .close,
@@ -60,13 +61,16 @@
 }
 
 .modal-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin: 12px;
+  margin-bottom: 12px;
 }
 
 .form-group {
@@ -94,6 +98,10 @@
   margin-bottom: 4px;
 }
 
+.modal-comment {
+  width: 448px;
+  height: 136px;
+}
 .modal-input,
 .modal-textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
