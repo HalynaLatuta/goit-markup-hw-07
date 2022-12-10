@@ -23,6 +23,11 @@
   transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+  color: var(--color-button-accent);
+  border: 1px solid #2196F3;
+  }
 }
 
 .customer-icon {
@@ -38,8 +43,8 @@
   margin-right: 0;
 }
 
-.customer:hover,
-.customer:focus {
-  color: var(--color-button-accent);
-  border: 1px solid #2196F3;
-}
+// .customer:hover,
+// .customer:focus {
+//   color: var(--color-button-accent);
+//   border: 1px solid #2196F3;
+// }

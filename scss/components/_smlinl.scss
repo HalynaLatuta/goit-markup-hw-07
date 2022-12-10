@@ -16,21 +16,29 @@
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: var(--color-button-accent);
+  }
+
+  &:hover .icon {
+    color: var(--color-text-white);
+  }
 }
 
-.sm-link-icon:hover,
-.sm-link-icon:focus {
-  background-color: var(--color-button-accent);
-}
+// .sm-link-icon:hover,
+// .sm-link-icon:focus {
+//   background-color: var(--color-button-accent);
+// }
 
 .icon {
   fill: currentColor;
 }
 
-.sm-link-icon:hover .icon,
-.sm-link-icon:focus .icon {
-  color: var(--color-text-white);
-}
+// .sm-link-icon:hover .icon,
+// .sm-link-icon:focus .icon {
+//   color: var(--color-text-white);
+// }
 
 
 .social-link-footer {
@@ -64,18 +72,26 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: var(--color-button-accent);
+  }
+
+  &::hover .icon-footer {
+    color: var(--color-text-white);
+  }
 }
 
 .icon-footer {
   fill: var(--color-text-white);
 }
 
-.sm-footer-icon:hover,
-.sm-footer-icon:focus {
-  background-color: var(--color-button-accent);
-}
+// .sm-footer-icon:hover,
+// .sm-footer-icon:focus {
+//   background-color: var(--color-button-accent);
+// }
 
-.sm-footer-icon:hover .icon-footer,
-.sm-footer-icon:focus .icon-footer {
-  color: var(--color-text-white);
-}
+// .sm-footer-icon:hover .icon-footer,
+// .sm-footer-icon:focus .icon-footer {
+//   color: var(--color-text-white);
+// }
